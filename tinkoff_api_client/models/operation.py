@@ -14,12 +14,12 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.currency import Currency  # noqa: F401,E501
-from swagger_client.models.instrument_type import InstrumentType  # noqa: F401,E501
-from swagger_client.models.money_amount import MoneyAmount  # noqa: F401,E501
-from swagger_client.models.operation_status import OperationStatus  # noqa: F401,E501
-from swagger_client.models.operation_trade import OperationTrade  # noqa: F401,E501
-from swagger_client.models.operation_type_with_commission import OperationTypeWithCommission  # noqa: F401,E501
+from tinkoff_api_client.models.currency import Currency  # noqa: F401,E501
+from tinkoff_api_client.models.instrument_type import InstrumentType  # noqa: F401,E501
+from tinkoff_api_client.models.money_amount import MoneyAmount  # noqa: F401,E501
+from tinkoff_api_client.models.operation_status import OperationStatus  # noqa: F401,E501
+from tinkoff_api_client.models.operation_trade import OperationTrade  # noqa: F401,E501
+from tinkoff_api_client.models.operation_type_with_commission import OperationTypeWithCommission  # noqa: F401,E501
 
 
 class Operation(object):

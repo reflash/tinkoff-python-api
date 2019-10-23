@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from api.sandbox_api import SandboxApi  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestSandboxApi(unittest.TestCase):

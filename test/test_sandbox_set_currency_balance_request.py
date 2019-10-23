@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.sandbox_set_currency_balance_request import SandboxSetCurrencyBalanceRequest  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestSandboxSetCurrencyBalanceRequest(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSandboxSetCurrencyBalanceRequest(unittest.TestCase):
     def testSandboxSetCurrencyBalanceRequest(self):
         """Test SandboxSetCurrencyBalanceRequest"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.sandbox_set_currency_balance_request.SandboxSetCurrencyBalanceRequest()  # noqa: E501
+        # model = tinkoff_api_client.models.sandbox_set_currency_balance_request.SandboxSetCurrencyBalanceRequest()  # noqa: E501
         pass
 
 

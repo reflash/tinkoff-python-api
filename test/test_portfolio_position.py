@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.portfolio_position import PortfolioPosition  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestPortfolioPosition(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPortfolioPosition(unittest.TestCase):
     def testPortfolioPosition(self):
         """Test PortfolioPosition"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.portfolio_position.PortfolioPosition()  # noqa: E501
+        # model = tinkoff_api_client.models.portfolio_position.PortfolioPosition()  # noqa: E501
         pass
 
 

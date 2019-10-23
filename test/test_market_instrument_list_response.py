@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.market_instrument_list_response import MarketInstrumentListResponse  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestMarketInstrumentListResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestMarketInstrumentListResponse(unittest.TestCase):
     def testMarketInstrumentListResponse(self):
         """Test MarketInstrumentListResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.market_instrument_list_response.MarketInstrumentListResponse()  # noqa: E501
+        # model = tinkoff_api_client.models.market_instrument_list_response.MarketInstrumentListResponse()  # noqa: E501
         pass
 
 

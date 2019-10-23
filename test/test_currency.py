@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.currency import Currency  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestCurrency(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCurrency(unittest.TestCase):
     def testCurrency(self):
         """Test Currency"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.currency.Currency()  # noqa: E501
+        # model = tinkoff_api_client.models.currency.Currency()  # noqa: E501
         pass
 
 

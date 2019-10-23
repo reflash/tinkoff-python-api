@@ -1,4 +1,4 @@
-# swagger_client.PortfolioApi
+# tinkoff_api_client.PortfolioApi
 
 All URIs are relative to *https://api-invest.tinkoff.ru/openapi/*
 
@@ -16,13 +16,13 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.PortfolioApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.PortfolioApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение валютных активов клиента
@@ -59,13 +59,13 @@ This endpoint does not need any parameter.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.PortfolioApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.PortfolioApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение портфеля клиента

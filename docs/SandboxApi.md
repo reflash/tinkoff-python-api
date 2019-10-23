@@ -1,4 +1,4 @@
-# swagger_client.SandboxApi
+# tinkoff_api_client.SandboxApi
 
 All URIs are relative to *https://api-invest.tinkoff.ru/openapi/*
 
@@ -20,13 +20,13 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SandboxApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.SandboxApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Удаление всех позиций
@@ -63,14 +63,14 @@ This endpoint does not need any parameter.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SandboxApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SandboxSetCurrencyBalanceRequest() # SandboxSetCurrencyBalanceRequest | Запрос на выставление баланса по валютным позициям
+api_instance = tinkoff_api_client.SandboxApi(tinkoff_api_client.ApiClient(configuration))
+body = tinkoff_api_client.SandboxSetCurrencyBalanceRequest() # SandboxSetCurrencyBalanceRequest | Запрос на выставление баланса по валютным позициям
 
 try:
     # Выставление баланса по валютным позициям
@@ -110,14 +110,14 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SandboxApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SandboxSetPositionBalanceRequest() # SandboxSetPositionBalanceRequest | Запрос на выставление баланса по инструментным позициям
+api_instance = tinkoff_api_client.SandboxApi(tinkoff_api_client.ApiClient(configuration))
+body = tinkoff_api_client.SandboxSetPositionBalanceRequest() # SandboxSetPositionBalanceRequest | Запрос на выставление баланса по инструментным позициям
 
 try:
     # Выставление баланса по инструментным позициям
@@ -159,13 +159,13 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.SandboxApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.SandboxApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Регистрация клиента в sandbox

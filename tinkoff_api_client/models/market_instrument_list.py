@@ -14,8 +14,8 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.big_decimal import BigDecimal  # noqa: F401,E501
-from swagger_client.models.market_instrument import MarketInstrument  # noqa: F401,E501
+from tinkoff_api_client.models.big_decimal import BigDecimal  # noqa: F401,E501
+from tinkoff_api_client.models.market_instrument import MarketInstrument  # noqa: F401,E501
 
 
 class MarketInstrumentList(object):

@@ -1,4 +1,4 @@
-# swagger_client.OrdersApi
+# tinkoff_api_client.OrdersApi
 
 All URIs are relative to *https://api-invest.tinkoff.ru/openapi/*
 
@@ -17,15 +17,15 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.OrdersApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.OrdersApi(tinkoff_api_client.ApiClient(configuration))
 order_id = 'order_id_example' # str | ID заявки
-body = swagger_client.Empty() # Empty |  (optional)
+body = tinkoff_api_client.Empty() # Empty |  (optional)
 
 try:
     # Отмена заявки
@@ -66,13 +66,13 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.OrdersApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.OrdersApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка активных заявок
@@ -109,14 +109,14 @@ This endpoint does not need any parameter.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.OrdersApi(swagger_client.ApiClient(configuration))
-body = swagger_client.LimitOrderRequest() # LimitOrderRequest | 
+api_instance = tinkoff_api_client.OrdersApi(tinkoff_api_client.ApiClient(configuration))
+body = tinkoff_api_client.LimitOrderRequest() # LimitOrderRequest | 
 figi = 'figi_example' # str | FIGI инструмента
 
 try:

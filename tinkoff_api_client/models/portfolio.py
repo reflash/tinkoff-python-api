@@ -14,7 +14,7 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.portfolio_position import PortfolioPosition  # noqa: F401,E501
+from tinkoff_api_client.models.portfolio_position import PortfolioPosition  # noqa: F401,E501
 
 
 class Portfolio(object):

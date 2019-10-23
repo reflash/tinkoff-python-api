@@ -1,4 +1,4 @@
-# swagger_client.OperationsApi
+# tinkoff_api_client.OperationsApi
 
 All URIs are relative to *https://api-invest.tinkoff.ru/openapi/*
 
@@ -15,15 +15,15 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.OperationsApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.OperationsApi(tinkoff_api_client.ApiClient(configuration))
 _from = '2013-10-20' # date | Начало временного промежутка
-interval = swagger_client.OperationInterval() # OperationInterval | Длительность временного промежутка
+interval = tinkoff_api_client.OperationInterval() # OperationInterval | Длительность временного промежутка
 figi = 'figi_example' # str | Figi инструмента для фильтрации (optional)
 
 try:

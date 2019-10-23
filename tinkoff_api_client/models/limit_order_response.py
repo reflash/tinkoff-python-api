@@ -14,7 +14,7 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.placed_limit_order import PlacedLimitOrder  # noqa: F401,E501
+from tinkoff_api_client.models.placed_limit_order import PlacedLimitOrder  # noqa: F401,E501
 
 
 class LimitOrderResponse(object):

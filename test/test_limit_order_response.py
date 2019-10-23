@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.limit_order_response import LimitOrderResponse  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestLimitOrderResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLimitOrderResponse(unittest.TestCase):
     def testLimitOrderResponse(self):
         """Test LimitOrderResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.limit_order_response.LimitOrderResponse()  # noqa: E501
+        # model = tinkoff_api_client.models.limit_order_response.LimitOrderResponse()  # noqa: E501
         pass
 
 

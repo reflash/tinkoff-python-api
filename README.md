@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client 
+import tinkoff_api_client 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import tinkoff_api_client
 ```
 
 ## Getting Started
@@ -47,13 +47,13 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка облигаций
@@ -64,7 +64,7 @@ except ApiException as e:
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка валютных пар
@@ -75,7 +75,7 @@ except ApiException as e:
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка ETF
@@ -86,7 +86,7 @@ except ApiException as e:
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 figi = 'figi_example' # str | FIGI
 
 try:
@@ -98,7 +98,7 @@ except ApiException as e:
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 ticker = 'ticker_example' # str | Тикер инструмента
 
 try:
@@ -110,7 +110,7 @@ except ApiException as e:
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка акций

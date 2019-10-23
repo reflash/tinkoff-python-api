@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.operations import Operations  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestOperations(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestOperations(unittest.TestCase):
     def testOperations(self):
         """Test Operations"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.operations.Operations()  # noqa: E501
+        # model = tinkoff_api_client.models.operations.Operations()  # noqa: E501
         pass
 
 

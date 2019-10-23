@@ -1,4 +1,4 @@
-# swagger_client.MarketApi
+# tinkoff_api_client.MarketApi
 
 All URIs are relative to *https://api-invest.tinkoff.ru/openapi/*
 
@@ -20,13 +20,13 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка облигаций
@@ -63,13 +63,13 @@ This endpoint does not need any parameter.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка валютных пар
@@ -106,13 +106,13 @@ This endpoint does not need any parameter.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка ETF
@@ -149,13 +149,13 @@ This endpoint does not need any parameter.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 figi = 'figi_example' # str | FIGI
 
 try:
@@ -196,13 +196,13 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 ticker = 'ticker_example' # str | Тикер инструмента
 
 try:
@@ -243,13 +243,13 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import tinkoff_api_client
+from tinkoff_api_client.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.MarketApi(swagger_client.ApiClient(configuration))
+api_instance = tinkoff_api_client.MarketApi(tinkoff_api_client.ApiClient(configuration))
 
 try:
     # Получение списка акций

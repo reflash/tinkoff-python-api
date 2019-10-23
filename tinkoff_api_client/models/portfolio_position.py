@@ -14,8 +14,8 @@ import pprint
 import re  # noqa: F401
 
 import six
-from swagger_client.models.instrument_type import InstrumentType  # noqa: F401,E501
-from swagger_client.models.money_amount import MoneyAmount  # noqa: F401,E501
+from tinkoff_api_client.models.instrument_type import InstrumentType  # noqa: F401,E501
+from tinkoff_api_client.models.money_amount import MoneyAmount  # noqa: F401,E501
 
 
 class PortfolioPosition(object):

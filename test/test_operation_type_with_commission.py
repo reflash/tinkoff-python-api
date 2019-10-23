@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+import tinkoff_api_client
 from models.operation_type_with_commission import OperationTypeWithCommission  # noqa: E501
-from swagger_client.rest import ApiException
+from tinkoff_api_client.rest import ApiException
 
 
 class TestOperationTypeWithCommission(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestOperationTypeWithCommission(unittest.TestCase):
     def testOperationTypeWithCommission(self):
         """Test OperationTypeWithCommission"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.operation_type_with_commission.OperationTypeWithCommission()  # noqa: E501
+        # model = tinkoff_api_client.models.operation_type_with_commission.OperationTypeWithCommission()  # noqa: E501
         pass
 
 
